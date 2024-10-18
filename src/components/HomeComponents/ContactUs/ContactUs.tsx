@@ -10,12 +10,13 @@ const ContactUs = () => {
       </div>
 
       <div className='flex justify-center my-5'>
-        
+
         <div>
           <form className='w-full'>
             <div className='flex flex-wrap -mx-3 mb-6'>
               <div className='w-full md:w-1/2 px-3 mb-6 md:mb-0'>
                 <label className='block uppercase tracking-wide text-orange-600 text-xs font-bold mb-2'>
+                  
                   First Name
                 </label>
                 <input
