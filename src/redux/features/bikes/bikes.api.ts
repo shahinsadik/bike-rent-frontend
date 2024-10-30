@@ -4,6 +4,7 @@ const bikeApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     createBike: builder.mutation({
       query: (bikeInfo) => {
+        
         return {
           method: 'POST',
           url: '/bikes',
