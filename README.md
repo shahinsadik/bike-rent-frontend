@@ -28,6 +28,7 @@ https://bike-rental-service-frontend.vercel.app/
   - View all bikes and rent from them.
 
 - **Admin:**
+
   - Profile Edit
   - Add bikes.
   - Update and Remove bikes.
