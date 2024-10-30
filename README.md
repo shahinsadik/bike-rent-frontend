@@ -41,7 +41,7 @@ https://bike-rental-service-frontend.vercel.app/
   - React
   - Redux
   - Tailwind CSS
-  - Shadcn UI
+  - ShadcnUI
   - TypeScript
 
 - **Backend:**
