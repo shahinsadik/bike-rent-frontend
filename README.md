@@ -13,8 +13,8 @@ https://bike-rental-service-frontend.vercel.app/
 
 ## User Login:
 
-- User Email: nabil@gamil.com
-- User Password: password123
+- User Email: user@gamil.com
+- User Password: user
 
 ### Features
 
