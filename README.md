@@ -3,13 +3,15 @@
 ## Overview
 
 This is a full-stack bike rental website that allows users to rent bikes and manage their rentals. The application has two roles: **User** and **Admin**.
+## Live Link
+https://bike-rental-service-frontend.vercel.app/
 
-## Admin Credentials:
+## Admin Login:
 
-- Admin Email: john@example.com
-- Admin Password: password123
+- Admin Email: admin@gmail.com
+- Admin Password: admin
 
-## User Credentials:
+## User Login:
 
 - User Email: nabil@gamil.com
 - User Password: password123
