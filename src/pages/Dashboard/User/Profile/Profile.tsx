@@ -67,14 +67,14 @@ const Profile = () => {
           <div className='flex items-center gap-4'>
             <Avatar className='h-16 w-16'>
               <AvatarFallback className='text-orange-600 font-bold font-[oswald] uppercase'>
-                {userProfile.name.slice(0, 2)}
+                {userProfile?.name.slice(0, 2)}
               </AvatarFallback>
             </Avatar>
             <div>
               <h3 className='text-2xl font-bold text-orange-600'>
-                Hi {userProfile.name} !
+                Hi {userProfile?.name} !
               </h3>
-              <p className='text-sm '>{userProfile.email}</p>
+              <p className='text-sm '>{userProfile?.email}</p>
             </div>
           </div>
           <Button
@@ -143,7 +143,7 @@ const Profile = () => {
             <Label htmlFor='role' className='text-orange-600 text-1xl'>
               User Role
             </Label>
-            <Input id='role' value={userProfile.role} readOnly />
+            <Input id='role' value={userProfile?.role} readOnly />
           </div>
 
           <div className='grid gap-2 col-span-full'>
@@ -152,7 +152,7 @@ const Profile = () => {
             </Label>
             <Textarea
               id='address'
-              defaultValue={userProfile.address}
+              defaultValue={userProfile?.address}
               readOnly={!isEditing}
               {...register('address', {
                 required: 'Address is required.',

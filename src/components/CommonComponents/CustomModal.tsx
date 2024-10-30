@@ -53,7 +53,7 @@ const CustomModal: React.FC<CustomModalProps> = ({
             Cancel
           </Button>
           <Button variant={'orangeBtn'} onClick={handleConfirm}>
-            Pay Tk 100 to Book
+            Pay Now
           </Button>
         </div>
       </div>

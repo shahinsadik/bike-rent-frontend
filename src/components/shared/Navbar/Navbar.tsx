@@ -3,7 +3,7 @@ import MobileNav from './MobileNav';
 
 const Navbar = () => {
   return (
-    <header className='w-full p-5 shadow-lg bg-[#262626] font-[oswald]'>
+    <header className='w-full p-5 shadow-lg bg-[#262626] '>
       <div className='flex h-14 items-center px-4'>
         <MainNav />
         <MobileNav />
